@@ -42,6 +42,6 @@
 	
 	<div style="text-align:center;" >
 		<img src='images/final.jpg'>
-	</div>	
+	</div>
 </body>
 </html>
