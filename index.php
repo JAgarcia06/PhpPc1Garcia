@@ -7,11 +7,11 @@
 </head>
 <body>
 	<div>
-		<img src='images/inicio.jpg'>
+		<img style="text-align:center;" src='images/inicio.jpg'>
 	</div>
 	
 	<div>
-		<img src='images/fin.jpg'>
+		<img style="text-align:center;" src='images/final.jpg'>
 	</div>	
 </body>
 </html>
