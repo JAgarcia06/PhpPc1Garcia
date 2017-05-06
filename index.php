@@ -10,7 +10,8 @@
 		<img src='images/inicio.jpg'>
 	</div>
 	
-	<table style="text-align:center;">
+	<div style="text-align:center;">
+	<table>
 	   <?php
 	  $servername = "us-cdbr-iron-east-03.cleardb.net";
 	  $username = "b74ba3320e82ec";
@@ -30,7 +31,7 @@
 	      <tr>
 	      <td><?php echo $row['nombre_servicio']?></td>
 	      <td><?php echo $row['descripcion_servicio']?></td>
-	      <img sr='images/'> <td><?php echo $row['imagen_servicio']?></td>
+	      <td><?php echo $row['imagen_servicio']?> <img sr='images/'> </td>
 	      </tr>
 	     <?php }
 	  } else {
@@ -39,6 +40,7 @@
 	  $conn->close();
 	 ?> 
 	 </table>
+	</div>	
 	
 	<div style="text-align:center;" >
 		<img src='images/final.jpg'>
